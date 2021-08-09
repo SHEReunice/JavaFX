@@ -56,15 +56,7 @@ public class button_intro extends Application {
         });
 
 
-        Group group = new Group();
-        group.getChildren().add(b2);
-        group.getChildren().add(b1);
-        Scene scene = new Scene(group);
-        stage.setScene(scene);
-        stage.setTitle("button");
-        stage.setHeight(800);
-        stage.setWidth(800);
-        stage.show();
+
     }
 
     public static void main(String[] args){
