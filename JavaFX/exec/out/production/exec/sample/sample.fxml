@@ -1,8 +1,14 @@
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.layout.GridPane?>
-
+<?xml version ="1.0" encoding ="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.chart.BarChart?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<GridPane fx:controller="sample.Controller"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
-</GridPane>
+<AnchorPane fx:controller="sample.Controller" xmlns:fx="http://javafx.com/fxml">
+    <children>
+<!--        <Label fx:id="label1" text = "this is a label"></Label>-->
+<!--        <Button  fx:id="fxmlbutton" text="button1" prefWidth="100" prefHeight="100" onAction="#action">-->
+<!--            <AnchorPane.leftAnchor>100</AnchorPane.leftAnchor>-->
+<!--            <AnchorPane.topAnchor>100</AnchorPane.topAnchor>-->
+<!--        </Button>-->
+    </children>
+</AnchorPane>
